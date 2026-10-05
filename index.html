@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Divine Silver Jewel – Share Your Experience</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f7f3ee;color:#222}
+.wrap{max-width:680px;margin:auto;padding:24px 16px 40px}
+.hero{background:#fff;border-radius:22px;padding:28px 20px;text-align:center;box-shadow:0 5px 25px #00000012}
+h1{margin:0 0 8px;font-size:28px}.sub{color:#666;line-height:1.5}
+.card{background:#fff;margin-top:14px;padding:18px;border-radius:18px;box-shadow:0 3px 15px #0000000d}
+.lang{font-size:12px;font-weight:bold;color:#8a6b3d;text-transform:uppercase;letter-spacing:1px}
+p{line-height:1.55;margin:10px 0 15px}
+button{border:0;border-radius:12px;padding:13px 16px;font-weight:bold;cursor:pointer;width:100%}
+.copy{background:#222;color:#fff}.google{background:#fff;border:2px solid #222;color:#222;margin-top:18px}
+.note{font-size:12px;color:#777;text-align:center;margin-top:16px;line-height:1.5}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="hero">
+<h1>Divine Silver Jewel</h1>
+<div class="sub">તમારો અનુભવ અમારી સાથે શેર કરો / Share your experience</div>
+</div>
+<div class="card"><div class="lang">ગુજરાતી</div><p>Divine Silver Jewel માંથી jewellery લીધી અને quality ખૂબ જ સારી લાગી. Design સુંદર છે અને staff પણ ખૂબ જ helpful છે. Overall shopping experience ખૂબ જ સરસ રહ્યો.</p>
+    <button class="copy" onclick="copyReview(this, 'Divine Silver Jewel માંથી jewellery લીધી અને quality ખૂબ જ સારી લાગી. Design સુંદર છે અને staff પણ ખૂબ જ helpful છે. Overall shopping experience ખૂબ જ સરસ રહ્યો.')">COPY REVIEW</button></div>
+<div class="card"><div class="lang">ગુજરાતી</div><p>Jewellery ની finishing અને packaging બંને ખૂબ જ સરસ છે. Daily wear માટે પણ સુંદર collection છે. Divine Silver Jewel નો અનુભવ સારો રહ્યો.</p>
+    <button class="copy" onclick="copyReview(this, 'Jewellery ની finishing અને packaging બંને ખૂબ જ સરસ છે. Daily wear માટે પણ સુંદર collection છે. Divine Silver Jewel નો અનુભવ સારો રહ્યો.')">COPY REVIEW</button></div>
+<div class="card"><div class="lang">Hindi</div><p>Divine Silver Jewel का collection बहुत सुंदर है। Jewellery की quality और finishing काफी अच्छी लगी और staff का behaviour भी बहुत अच्छा था।</p>
+    <button class="copy" onclick="copyReview(this, 'Divine Silver Jewel का collection बहुत सुंदर है। Jewellery की quality और finishing काफी अच्छी लगी और staff का behaviour भी बहुत अच्छा था।')">COPY REVIEW</button></div>
+<div class="card"><div class="lang">Hindi</div><p>बहुत अच्छा shopping experience रहा। Designs premium हैं और jewellery पहनने पर बहुत elegant लगती है।</p>
+    <button class="copy" onclick="copyReview(this, 'बहुत अच्छा shopping experience रहा। Designs premium हैं और jewellery पहनने पर बहुत elegant लगती है।')">COPY REVIEW</button></div>
+<div class="card"><div class="lang">English</div><p>Beautiful collection with excellent finishing. The staff was helpful and the overall shopping experience was very pleasant.</p>
+    <button class="copy" onclick="copyReview(this, 'Beautiful collection with excellent finishing. The staff was helpful and the overall shopping experience was very pleasant.')">COPY REVIEW</button></div>
+<div class="card"><div class="lang">English</div><p>Loved the designs and the quality of the jewellery. The collection is elegant, and the service was friendly and professional.</p>
+    <button class="copy" onclick="copyReview(this, 'Loved the designs and the quality of the jewellery. The collection is elegant, and the service was friendly and professional.')">COPY REVIEW</button></div>
+<div class="hero" style="margin-top:18px">
+<button class="google" onclick="window.location.href='https://g.page/r/CWHU7uR2hGsGEAI/review'">WRITE A GOOGLE REVIEW</button>
+<div class="note">Review text copy કર્યા પછી Google પર જઈને તમારા અનુભવ મુજબ rating અને review પોસ્ટ કરો.</div>
+</div>
+</div>
+<script>
+async function copyReview(btn,text){
+  try {
+    await navigator.clipboard.writeText(text);
+    const old=btn.innerText; btn.innerText="COPIED ✓";
+    setTimeout(()=>btn.innerText=old,1800);
+  } catch(e) {
+    alert("Please copy the review text manually.");
+  }
+}
+</script>
+</body>
+</html>
